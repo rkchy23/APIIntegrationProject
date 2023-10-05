@@ -16,7 +16,7 @@ function getDetails() {
     let data = JSON.parse(this.responseText);//converts string to object
     console.log(data.users);
     data.users.forEach((user) => { 
-      console.log(user);
+      // console.log(user);
       let divEl = `<div class="user-card">
   <img src=${user.image} alt="Profile Image" />
   <h3>${user.firstName}</h3>
