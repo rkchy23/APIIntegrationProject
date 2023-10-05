@@ -4,6 +4,8 @@ body {
   .card-container {
     display: flex;
     flex-wrap: wrap;
+      justify-content: space-evenly;
+    align-items: center;
     font-size: 2rem;
     transition: opacity 1s;
   }
