@@ -26,7 +26,7 @@ function getDetails() {
   </div>`;
 
       // divEle.innerHTML=divEl;
-      // divEle.insertAdjacentHTML("afterbegin", divEl);
+      divEle.insertAdjacentHTML("afterbegin", divEl);
     });
   });
   // email.innerHTML=data.email;
